@@ -1,5 +1,9 @@
 # typescript-sort-completions
 
+## Notice
+
+You must install plugin manually via npm/yarn (see below) otherwise the TS service won't load it
+
 ## Features
 
 When doing completion from TS service, slightly reorder available completions to keep own non-inherited properties from type at the top of completion list:
@@ -36,7 +40,9 @@ When doing completion from TS service, slightly reorder available completions to
 
 (Own properties are being displayed at top)
 
-## Setting up
+## Installation
+
+```npm install typescript-type-completion-sorting-plugin --save-dev```
 
 Add to your tsconfig.json:
 
@@ -63,6 +69,6 @@ return (<MyComp /*trigger here*/);
 
 ## Release Notes
 
-### 0.0.1
+### 0.0.1-0.0.2
 
 Initial release 

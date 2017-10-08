@@ -2,7 +2,7 @@
     "name": "typescript-sort-completions",
     "displayName": "Typescript Sort Completions",
     "description": "Display own type properties at top of the completion list in Typescript",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "asvetliakov",
     "icon": "icon.png",
     "engines": {
