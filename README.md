@@ -1,44 +1,7 @@
 # typescript-sort-completions
 
 ## Notice
-
 You must install plugin manually via npm/yarn (see below) otherwise the TS service won't load it
-
-## Features
-
-When doing completion from TS service, slightly reorder available completions to keep own non-inherited properties from type at the top of completion list:
-
-## React (especially useful when inherting from HTMLAttributes)
-
-### Before: 
-![](/images/react-before.png) 
-
-(Component own properties are messed with HTML ones)
-
-### After: 
-![](/images/react-after.png)
-
-(Notice component own properites are being displayed at top)
-
-## Class
-
-### Before
-![](/images/class1-before.png)
-
-(Mix own & inherited properties)
-
-### After:
-![](/images/class1-after.png)
-
-(Own properties are being displayed at top)
-
-### Before:
-![](/images/class2-before.png)
-
-### After:
-![](/images/class2-after.png)
-
-(Own properties are being displayed at top)
 
 ## Installation
 
@@ -51,6 +14,47 @@ Add to your tsconfig.json:
          "name": "typescript-type-completion-sorting-plugin"
     }]
 ```
+
+## Features
+
+When doing completion from TS service, slightly reorder available completions to keep own non-inherited properties from type at the top of completion list:
+
+## React (especially useful when inherting from HTMLAttributes)
+
+### Before: 
+![react before](/images/react-before.png) 
+
+(Component own properties are messed with HTML ones)
+
+### After: 
+![react after](/images/react-after.png)
+
+(Notice component own properites are being displayed at top)
+
+## Class
+
+### Before
+
+![class1 before](/images/class1-before.png)
+
+(Mix own & inherited properties)
+
+### After:
+
+![class1 after](/images/class1-after.png)
+
+(Own properties are being displayed at top)
+
+### Before:
+
+![class2 before](/images/class2-before.png)
+
+### After:
+
+![class2 after](/images/class2-after.png)
+
+(Own properties are being displayed at top)
+
 
 ## Known issues
 
@@ -69,6 +73,6 @@ return (<MyComp /*trigger here*/);
 
 ## Release Notes
 
-### 0.0.1-0.0.2
+### 0.0.1-0.0.3
 
 Initial release 

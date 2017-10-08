@@ -2,7 +2,7 @@
     "name": "typescript-sort-completions",
     "displayName": "Typescript Sort Completions",
     "description": "Display own type properties at top of the completion list in Typescript",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "asvetliakov",
     "icon": "icon.png",
     "engines": {
@@ -10,10 +10,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/asvetliakov/typescript-sort-completions-vscode.git"
+        "url": "https://github.com/asvetliakov/typescript-type-completion-sorting-plugin.git"
     },
     "bugs": {
-        "url": "https://github.com/asvetliakov/typescript-sort-completions-vscode/issues"
+        "url": "https://github.com/asvetliakov/typescript-type-completion-sorting-plugin/issues"
     },
     "categories": [
         "Languages"
