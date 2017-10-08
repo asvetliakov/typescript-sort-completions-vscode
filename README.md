@@ -46,7 +46,7 @@ Add to your tsconfig.json:
     }]
 ```
 
-## Knwon issues
+## Known issues
 
 Non working with JSX elements without closing tag, i.e:
 ```tsx
